@@ -35,3 +35,14 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//++++++++++++++++++++++++++++++++++++++++
+
+// Stack [ primitive] ,  Heap [non-primitive]
+
+let myYoutube = "biplab@5523";
+let anotherName = myYoutube ;
+anotherName = "IndianArmy";
+console.log(anotherName);
+console.log(myYoutube);
+
